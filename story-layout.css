@@ -93,6 +93,10 @@ h2 {
 .base-column {
 	/*max-width: 600px;*/
 	max-width: 40rem;
+	/* Extra small devices (phones, 600px and down) */
+	@media only screen and (max-width: 600px) {
+		max-width: 60rem;
+	} 
 	
 	/*margin-left: 25px;
 	margin-right: 25px;*/
