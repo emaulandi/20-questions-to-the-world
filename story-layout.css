@@ -1,5 +1,8 @@
 html {
-  font-size: 100%
+  font-size: 100%;
+	@media only screen and (max-device-width:480px) {
+		font-size:120%;
+ 	}
 }
 
 body {
@@ -93,12 +96,6 @@ h2 {
 .base-column {
 	/*max-width: 600px;*/
 	max-width: 40rem;
-	/* Extra small devices (phones, 600px and down) */
-	@media only screen and (max-width: 480) {
-		max-width: 60rem;
-		margin-left: 0;
-		margin-right: 0;
-	} 
 	
 	/*margin-left: 25px;
 	margin-right: 25px;*/
@@ -108,11 +105,7 @@ h2 {
 
 .text-column {
 	/*font-size: 18px;*/
-	@media only screen and (max-width: 480) {
-		font-size: 2rem;
-		font-weight: bold;
-		background-color: lightgreen;
-	}
+
 	font-size: 1.1rem;
 	text-align: justify;
 	line-height: 1.9;
