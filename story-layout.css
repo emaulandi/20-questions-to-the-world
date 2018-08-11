@@ -111,6 +111,17 @@ h2 {
 	margin-bottom: 2.5rem;
 }
 
+.text-column-px {
+	/*font-size: 1.1rem;*/
+	font-size: 18px;
+	text-align: justify;
+	line-height: 1.9;
+	
+	/*margin-top: 20px;*/
+	margin-top: 1rem;
+	margin-bottom: 2.5rem;
+}
+
 .title-column{
 	line-height: 1;
 }
