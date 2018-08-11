@@ -1,0 +1,145 @@
+body {
+	font-family: 'Libre Franklin', serif;
+	margin: 0;
+}
+
+h1, h2, h3 {
+	font-family: 'Poppins', serif;
+	font-weight: bold;
+}
+
+/* header style */
+img.logo {
+	max-width: 7rem;
+}
+
+.header {
+	/*margin-top: 30px;
+	margin-bottom: 20px;*/
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+
+
+/* title style */
+h1 {
+	/*font-size: 70px;*/
+	font-size: 4.5rem;
+	color: white;
+	margin-bottom: 0
+}
+
+h3 {
+	font-family: 'Gaegu', serif;
+	/*font-size: 40px;*/
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+	font-size: 2.5rem;
+	color: white;
+}
+
+.img-container {
+	background-image: url("img/head.png");
+	background-repeat: repeat-x;
+}
+
+.img-container-fullwidth {
+	width: 100%;
+	background-image: url("img/head.png");
+	background-repeat: repeat-x;
+}
+
+/* content style */
+
+.before-subtile { 
+	height: .7rem;
+	width: 9rem;
+	background-color:#ffec00;
+	
+	margin-top: 4rem;
+}
+
+h2 {
+	/* font-size: 30px; */
+	font-size: 2.2rem;
+	margin-top: .1rem;
+	margin-bottom: 1rem;
+}
+
+.wrapper {
+	/* Firefox */
+    display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+
+    /* Safari and Chrome */
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+
+    /* W3C */
+    display: box;
+    box-pack: center;
+    box-align: center;
+}
+
+.base-column {
+	/*max-width: 600px;*/
+	max-width: 40rem;
+	
+	/*margin-left: 25px;
+	margin-right: 25px;*/
+	margin-left: 1.4rem;
+	margin-right: 1.4rem;
+}
+
+.text-column {
+	/*font-size: 18px;*/
+	font-size: 1.1rem;
+	text-align: justify;
+	line-height: 1.9;
+	
+	/*margin-top: 20px;*/
+	margin-top: 1rem;
+	margin-bottom: 2.5rem;
+}
+
+.title-column{
+	line-height: 1;
+}
+
+/* chart style */
+
+svg {
+	background-color: yellow;
+
+}
+
+#scrolly-overlay .scrolly {
+  max-width: 60rem;
+  margin: 3rem auto;
+  background-color: #f4f4f4;
+  padding: 1rem;
+}
+
+#scrolly-overlay .scrolly figure.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  height: 70vh; /*Height of the graph zone */
+  background: #969696;
+  margin: 0;
+  top: 5vh; /* Graph position from the bottom */
+  left: 0;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+/* footer style */
+
+.wide { 
+    background:#ebebeb;
+    width: 100%;
+    height: auto;
+}
